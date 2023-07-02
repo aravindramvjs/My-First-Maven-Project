@@ -5,8 +5,6 @@ import org.junit.jupiter.api.Test;
 
 public class UserValidationTestCase {
 
-//	user.setEmail("aravind@gmail.com");
-//	user.setPassword("Aravind21");
 	
 	//Test Case for Id
 	@Test
@@ -23,7 +21,7 @@ public class UserValidationTestCase {
 		}
 		catch(IllegalArgumentException ex) {
 			Assertions.assertEquals("ID should be positive.", ex.getMessage());
-		}
+		} 
 	}
 	
 	//Test Case for UserName
@@ -41,6 +39,7 @@ public class UserValidationTestCase {
 			Assertions.assertEquals("Name should have a minimum length of 2 characters.", ex.getMessage());
 		}
 	}
+	
 	
 	@Test
 	public void testUserNameNullException() {

@@ -1,6 +1,7 @@
 package com.fssa.aravind.day19.practice;
 
 public class User {
+	
 	int id;
 	String name;
 	String password;
@@ -36,7 +37,7 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
-	}
+	} 
 
 //		validate method get user crenditals and validate using another methods
 	void validate(User user) throws IllegalArgumentException {
