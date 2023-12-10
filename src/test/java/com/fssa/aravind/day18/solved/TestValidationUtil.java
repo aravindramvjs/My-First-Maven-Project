@@ -1,9 +1,9 @@
 package com.fssa.aravind.day18.solved;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 // main class to run both postive and negative outcome
+
 public class TestValidationUtil {
 	
 	//	TestCase Methods
